@@ -48,13 +48,6 @@ class Vector3D {
             return Vector3D(x * s, y * s, z * s);
         }
 
-        Vector3D& operator*=(const db s) {
-            x *= s;
-            y *= s;
-            z *= s;
-            return *this;
-        }
-
         // Division by scalars
 
         Vector3D operator/(const db s) {
